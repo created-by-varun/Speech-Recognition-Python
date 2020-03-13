@@ -5,4 +5,4 @@ Speech Recognition using python, pyaudio and speech recognition module
 2. speechrecognition module: ``` sudo pip3 install --upgrade speechrecognition ```
 
 ### How to Run:
-Use: ```python3 main.py``` or ```python main.py```
+```python3 main.py``` ``

@@ -7,7 +7,10 @@ with sr.Microphone()as source:
 	audio=r.listen(source)
 	try:
 		output=r.recognize_google(audio)
-		print("you said :{}".format(output))
+		print("You:{}".format(output))	
+		if (output=="hello"):
+			print("Hello to you too")
+		
 
 	except:
 		print("I can't recognize what you said!")

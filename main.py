@@ -11,6 +11,9 @@ with sr.Microphone()as source:
 		if (output=="hello"):
 			print("Hello to you too")
 		
+		if(output=="hi"):
+			print("Hey, how are you?")
+		
 
 	except:
 		print("I can't recognize what you said!")
